@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.fillChild img, .fillChild input, .fillChild select,  .fillChild textarea { width:100%; height:auto; } /*child element will be 100%*/
+/*.leftChild img, .leftChild input { float:left; }
+.rightChild img, .rightChild input { float:right; }*/
+
+.elem { display:block; visibility:visible; }
+.elem2 { display:block; }
+.m_elem { display:none; visibility:hidden; }
+
+.relative { position:relative; }
+.block { display:block; }
+
+.inputBox { border:1px solid #CCC; margin:2px; background:#FFF; }
+
+/**********************************************/
+/************main wrappers********************/
+/**********************************************/
+
+
+html,
+body {
+	height:100%; /*relative height of browser*/
+}
+
+.mainWrap { /*wraps all contents, mother of all containers next to body tag*/
+	position:inherit; /*relative height of browser*/
+	min-height:100%; /*relative height of browser*/
+}
+
+.headWrap { }
+
+.contentWrap { padding-bottom:20px; }
+
+
+a {
+	-webkit-transition : all 0.2s ease-out;
+	-moz-transition : all 0.2s ease-out;
+	-o-transition :all 0.2s ease-out;
+	transition : all 0.2s ease-out;
+}
+
+
+
+/************************************************************/
+
+.clear { clear:both; }
+.left { float:left; }
+.right { float:right; }
+.center { margin:0 auto; float:none; }
+.txtCenter { text-align:center; }
+.txtRight { text-align:right; }
+.txtLeft { text-align:left; }
+.noFloat { float:none; }
+.pad { padding:10px; }
+.marg { margin:10px; }
+.spacer { padding-bottom:10px; clear:both; }
+.noPad { padding:0; }
+img { height:auto; }
+
+
+/********************************************/
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+	
+	.pad { padding:6px; }
+	.m_txtCenter { text-align:center; }
+	.m_txtLeft { text-align:left; }
+	.m_left { float:left; }
+	.m_right { float:right; }
+	.m_center { margin:0 auto; }
+	.m_noFloat { float:none; }
+	.m_pad { padding:8px; }
+	.m_noPad { padding:0; }
+	
+	.elem { display:none; visibility:hidden; }
+	.elem2 { display:none; }
+	.m_elem { display:block; visibility:visible; }
+
+	.m_btn { 
+		min-width:20px; padding:0 10px; height:40px; line-height:40px; margin:2px; text-align:center; 
+		border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+	}
+
+	
+}

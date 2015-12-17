@@ -1,0 +1,14 @@
+[02-Dec-2015 00:16:11 UTC] PHP Warning:  file_get_contents(http://cdn.api.twitter.com/1/urls/count.json?url=http%3A%2F%2Fkurastar.philwebservicesdev.com%2Farticle%2F919%2F): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/wwwphilw/public_html/2015/kurastar/wp-content/themes/kurastar/inc/custom-function.php on line 363
+[02-Dec-2015 00:16:43 UTC] PHP Warning:  file_get_contents(http://cdn.api.twitter.com/1/urls/count.json?url=http%3A%2F%2Fkurastar.philwebservicesdev.com%2Farticle%2F898%2F): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found
+ in /home/wwwphilw/public_html/2015/kurastar/wp-content/themes/kurastar/inc/custom-function.php on line 363
+[10-Dec-2015 07:23:29 UTC] PHP Warning:  file_get_contents(http://cdn.api.twitter.com/1/urls/count.json?url=http%3A%2F%2Fkurastar.philwebservicesdev.com%2Farticle%2F919%2F): failed to open stream: HTTP request failed! HTTP/1.1 410 Gone
+ in /home/wwwphilw/public_html/2015/kurastar/wp-content/themes/kurastar/inc/custom-function.php on line 363
+[10-Dec-2015 07:31:13 UTC] PHP Warning:  file_get_contents(http://cdn.api.twitter.com/1/urls/count.json?url=http%3A%2F%2Fkurastar.philwebservicesdev.com%2Farticle%2F926%2F): failed to open stream: HTTP request failed! HTTP/1.1 410 Gone
+ in /home/wwwphilw/public_html/2015/kurastar/wp-content/themes/kurastar/inc/custom-function.php on line 363
+[10-Dec-2015 07:31:30 UTC] PHP Warning:  file_get_contents(http://cdn.api.twitter.com/1/urls/count.json?url=http%3A%2F%2Fkurastar.philwebservicesdev.com%2Farticle%2F926%2F): failed to open stream: HTTP request failed! HTTP/1.1 410 Gone
+ in /home/wwwphilw/public_html/2015/kurastar/wp-content/themes/kurastar/inc/custom-function.php on line 363
+[10-Dec-2015 13:47:59 UTC] PHP Warning:  file_get_contents(http://cdn.api.twitter.com/1/urls/count.json?url=http%3A%2F%2Fkurastar.philwebservicesdev.com%2Farticle%2F919%2F): failed to open stream: HTTP request failed! HTTP/1.0 410 Gone
+ in /home/wwwphilw/public_html/2015/kurastar/wp-content/themes/kurastar/inc/custom-function.php on line 363
+[10-Dec-2015 13:58:55 UTC] PHP Warning:  file_get_contents(http://cdn.api.twitter.com/1/urls/count.json?url=http%3A%2F%2Fkurastar.philwebservicesdev.com%2Farticle%2F926%2F): failed to open stream: HTTP request failed! HTTP/1.1 410 Gone
+ in /home/wwwphilw/public_html/2015/kurastar/wp-content/themes/kurastar/inc/custom-function.php on line 363

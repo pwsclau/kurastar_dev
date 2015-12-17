@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+.maxWidth { max-width:980px; width:100%; }
+
+.box5, .box10, .box15, .box16, .box20, .box25, .box26, .box28, .box30, .box33, .box35, .box40, .box45, .box50, .box55, .box60, .box65, .box70, .box72, .box75, .box80, .box85, .box90, .box95, .box100  { float:left; }
+.m_box10, .m_box20, .m_box30, .m_box40, .m_box50, .m_box60, .m_box70, .m_box80, .m_box90, .m_box100 { float:left; }
+
+.box5 { width:5%; } 
+.box10 { width:10%; }
+.box15 { width:15%; } 
+.box16 { width:16.66%; } /* 6 columns */
+.box20{ width:20%; }  
+.box25 { width:25%; } 
+.box26 { width:26%; }
+.box28 { width:28%; } 
+.box30 { width:30%; } 
+.box33 { width:33.33%; } /* 3 columns */
+.box35 { width:35%; } 
+.box40 { width:40%; } 
+.box45 { width:45%; } 
+.box50 { width:50%; } 
+.box55 { width:55%; } 
+.box60 { width:60%; } 
+.box65 { width:65%; } 
+.box70 { width:70%; } 
+.box72 { width:72%; } 
+.box75 { width:75%; } 
+.box80 { width:80%; } 
+.box85 { width:85%; } 
+.box90 { width:90%; } 
+.box95 { width:95%; } 
+.box100 { width:100%; } 
+
+
+
+/***********************************************************************//***********************************************************************/
+/*************************** MEDIA QUERIES *****************************//*************************** MEDIA QUERIES *****************************/
+/***********************************************************************//***********************************************************************/
+
+
+/* 1024 */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	.maxWidth { max-width:768px; }
+}
+
+
+ 
+/* 768 */
+
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+	.maxWidth { max-width:640px; }
+}
+
+
+/* 640 */ /*start mobile*/
+
+
+@media only screen and (max-width: 640px) {
+	.box25, .box10, .box20, .box30, .box40, .box50, .box60, .box70, .box80, .box90, .box100 { width:100%; }
+	.m_box25 { width:25%; } .m_box10 { width:10%; } .m_box20 { width:20%; } .m_box30 { width:30%; } .m_box40 { width:40%; } .m_box50 { width:50%; } .m_box60 { width:60%; } .m_box70 { width:70%; } .m_box80 { width:80%; } .m_box90 { width:90%; } .m_box100 { width:100%; }
+}
+
+
+@media only screen (min-width: 481px) and (max-width: 640px) {
+	.maxWidth { max-width:480px; }
+
+}
+
+
+/* 480 */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.maxWidth { max-width:320px; margin:0 auto; }
+}
+
+
+
+
+/**** 240px ****/ /*** low-end smartphone ***/
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+	.box5, .box10, .box15, .box16, .box20, .box25, .box26, .box28, .box30, .box33, .box35, .box40, .box45, .box50, .box55, .box60, .box65, .box70, .box72, .box75, .box80, .box85, .box90, .box95, .box100  { width:100%; }
+	.s_box50 { width:50%; }
+}

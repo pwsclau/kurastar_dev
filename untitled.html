@@ -1,0 +1,22 @@
+<?php 
+/*
+  Template Name: McGuide
+*/
+
+get_header();?>
+    <div class="container">
+        <?php the_title(); ?>
+        <ul class="inline">
+            <?php $row = 1; if(get_field('mcguide_images')): ?>
+                <?php while(has_sub_field('mcguide_images')): ?>
+                <li>
+                    <img src="<?php the_sub_field('image'); ?>" alt="">
+                    <caption><?php the_sub_field('image_caption'); ?></caption>
+                </li>
+                <?php $row++; endwhile; ?>
+            <?php endif; ?>
+        </ul>
+    </div>
+<?php get_footer();?>
+
+
